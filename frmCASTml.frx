@@ -1,0 +1,31 @@
+ÿ<html>
+<head>
+<script language="CastScript">
+
+  #CastScript can be used without permission
+  #CastScript is copyrighted 2002 by, and is the
+  #intellecual property of, Jeromy Huber
+
+make onlies:a
+make ta:table
+make img:img
+
+onlies { href="http://onlies.net"; target="_new"; extra=b,small; }
+set goo:onlies BUT { href="http://www.google.com"; }
+
+ta { cellpadding="0"; cellspacing="0"; border="0"; extra=tr,td; }
+img { src="http://google.com/images/logo.gif"; }
+
+</script>
+</head>
+<body>
+
+<ta>
+ <img><br>
+<onlies title="On Lies">Learn about freedom</onlies><br>
+<goo title="Search Google">Search the web</goo><br>
+<br>
+This isn't a great example of CastScript's ability, or practical use, but it demonstrates it's ability.
+</ta>
+</body>
+</html>
